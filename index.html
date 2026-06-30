@@ -594,9 +594,9 @@
           If you have an opportunity or just want to connect, my inbox is always open.
         </p>
         <div class="contact-links">
-          <a href="mailto:ratankumarmetha@gmail.com" class="contact-link">
+          <a href="mailto:ratankumarmetha@gmail.com" class="contact-link" id="emailLink" onclick="return handleEmailClick(event)">
             <div class="contact-link-icon">✉️</div>
-            ratankumarmetha@gmail.com
+            <span id="emailText">ratankumarmetha@gmail.com</span>
           </a>
           <a href="https://www.linkedin.com/in/ratan-kumar-metha/" target="_blank" class="contact-link">
             <div class="contact-link-icon">💼</div>
@@ -698,6 +698,18 @@
     if (e.target === document.getElementById('javaCertModal')) {
       document.getElementById('javaCertModal').classList.remove('open');
     }
+  }
+
+  // EMAIL CLICK HANDLER — opens mail app, falls back to copy
+  function handleEmailClick(e) {
+    const email = 'ratankumarmetha@gmail.com';
+    const textEl = document.getElementById('emailText');
+    navigator.clipboard.writeText(email).then(() => {
+      const original = textEl.textContent;
+      textEl.textContent = '✓ Copied! Opening mail app...';
+      setTimeout(() => { textEl.textContent = original; }, 2500);
+    }).catch(() => {});
+    return true;
   }
 
   // NAV SCROLL

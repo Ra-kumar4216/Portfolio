@@ -1,43 +1,36 @@
-# Hi, I'm Ratan Kumar 👋
+# Ratan Kumar — Portfolio
 
-Java Full Stack Developer based in India, currently working at **Amdox Technologies** and finishing my BCA (2027). I build backend systems with Spring Boot, ship frontends with React, and lately I've been deep into wiring AI into real products instead of just talking about it.
-
-This repo holds the source for my personal portfolio site — built as a single `index.html` file, no frameworks, no build step. Just clean HTML, CSS, and JS that loads fast and looks the way I actually want it to.
+My personal portfolio site, built as a single `index.html` file with no frameworks and no build step. Just HTML, CSS, and JavaScript doing exactly what they need to do, fast and clean.
 
 🔗 **Live site:** [ratankumar-portfolio.vercel.app](https://ratankumar-portfolio.vercel.app)
 
----
-
 ## What's on the site
 
-- A hero section with a typing animation that cycles through what I actually do — full stack dev, AI builder, Java/Spring Boot
-- My real work experience across 4 companies, including what I actually built at each one
-- Projects I've shipped — from a Spring Boot task tracker with full JWT/RBAC auth to **Mehta.AI**, a personal AI assistant I built with both a desktop voice interface and a web app
-- Certifications, each one linking out to the actual verification page so it's not just a list of names
-- A contact section that opens WhatsApp directly with a pre-filled message — because nobody actually checks their `mailto:` links anymore
+- A hero section with my photo and a typing animation cycling through what I do — full stack developer, software developer, AI builder
+- A skills section covering the languages, frameworks, and tools I actually use
+- My work experience across the companies I've worked at, with the real things I built at each one
+- A projects section featuring everything from a Spring Boot task tracker with JWT auth to Mehta.AI, a personal AI assistant I've been building with both a desktop and web interface
+- A certifications section with direct links to each certificate
+- Education details
+- A contact section that opens WhatsApp directly with a pre-filled message, so reaching out doesn't depend on someone having a mail client configured
 
-## Why I built it this way
+## How it's built
 
-I didn't want a templated portfolio that looks like everyone else's. Every animation, every layout decision here was something I built and tweaked myself — dark/light toggle, scroll reveals, the whole thing. It's also genuinely useful as a sandbox: every time I learn something new in CSS or JS, this is where I try it first.
+One `index.html` file containing the structure, all the CSS, and all the JavaScript inline. Dark and light theme toggle, a sticky navbar, smooth scroll between sections, and scroll-triggered fade-in animations as you move down the page. No external dependencies beyond Google Fonts.
 
 ## Tech Stack
 
-`HTML5` `CSS3` `JavaScript` — that's it. No React, no build tools, no dependencies beyond Google Fonts. Sometimes the simplest stack is the right one, especially for something that just needs to load instantly and work everywhere.
+`HTML5` `CSS3` `JavaScript (Vanilla)`
 
-## Other things I'm building
+## Running it locally
 
-- **[Mehta.AI](https://github.com/Ra-kumar4216/Mehta-Ai-Assistance-)** — a personal AI assistant, Python voice interface + web app with Gemini-powered chat, Supabase auth, and a command relay between the two
-- **[Agile Task Tracker](https://github.com/Ra-kumar4216/TaskManagement3-Agile-Task-Tracker)** — a Jira-style task manager with Spring Boot, JWT auth, and role-based access control
-- A couple of e-commerce builds for family businesses (footwear and sarees) that aren't public yet but taught me more about real-world constraints than any tutorial did
+```bash
+git clone https://github.com/Ra-kumar4216/Protfolio.git
+cd Protfolio
+```
 
-## Let's connect
-
-I'm actively looking for full-time and fresher software engineering roles, especially in Pune. If something here looks interesting or you just want to talk shop:
-
-- 📧 ratankumarmetha@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/ratan-kumar-metha/)
-- 🌐 [Portfolio](https://ratankumar-portfolio.vercel.app)
+Open `index.html` in your browser. No dependencies, no setup needed.
 
 ---
 
-*Built by someone who'd rather ship something small and real than plan something big and never finish it.*
+[GitHub](https://github.com/Ra-kumar4216) · [LinkedIn](https://www.linkedin.com/in/ratan-kumar-metha/) · ratankumarmetha@gmail.com

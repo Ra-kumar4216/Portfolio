@@ -1,3 +1,0 @@
-<FilesMatch "^(README\.md|\.ftp-deploy-sync-state\.json)$">
-  Require all denied
-</FilesMatch>

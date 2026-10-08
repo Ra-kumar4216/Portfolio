@@ -22,9 +22,11 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
+          # Test ke baad: agar test1.txt khula to isko /www/ kar do
           server-dir: /www/ratankumar.com/
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
             .github/**
+            README.md
